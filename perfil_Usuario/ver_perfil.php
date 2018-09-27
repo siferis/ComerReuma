@@ -30,10 +30,10 @@
          <div class="col-md-1"><!--div izquierda-->
 
          </div>
-         <div class="col-md-10"><!-- div Central-->
-           
+         <div class="col-md-8"><!-- div Central-->
+
          </div>
-         <div class="col-md-1"><!--div derecha-->
+         <div class="col-md-3"><!--div derecha-->
 
          </div>
 

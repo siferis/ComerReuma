@@ -16,9 +16,24 @@
 <div class="container">
   <div class="row">
     <div class="col-md-7"><!--primero 7 -->
+        <br><br><br>
+        <div class="row">
+
+                  <div class="col-md-7"><!--div derecha-->
+
+                      <h1 style="color:#FFFFFF";>Te estamos Buscando </h1>
+                        <p></p>
+
+                  </div>
+                  <div class="col-md-5"><!--div derecha-->
+                      <img src="img/3.5.1.png" alt="">
+                  </div>
+        </div>
       <div class="jumbotron"><!-- jumbotron Inicio-->
-        <h1 style="color:#FFFFFF";>Sobre Nosotros</h1>
-        <p  style="color:#848484";>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 style="color:#FFFFFF";>Sobre Nosotros</h3>
+        <p  style="color:#848484";>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         <p align="right">
           <p style="color:#FFFFFF";><a class="btn btn-btnJum btn-lg" href="#" role="button">leer mas</a></p>
       </div><br><!-- jumbotron Cierre-->
@@ -32,58 +47,30 @@
         <div class="panel-body">
           <div class="" align="center">
             <br>
-            <button type="button"class="btn btn-info" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Ya tienes Cuenta?</button>
+            <button id="Login" type="button"class="btn btn-info" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Ya tienes Cuenta?</button>
           </div>
           <h3 style="color:#FFFFFF";>Registrar</h3>
           <div class="row">
             <div class="col-md-12"><!--segundo 1 -->
-              <input type="text" class="form-control" name="" value="" placeholder="Nombre">
+              <input type="text" class="form-control" name="" value="" id="nombreRegistro" placeholder="Nombre">
             </div>
             <br><br><br>
           </div>
           <div class="row">
             <div class="col-md-12">
-                <input type="text" class="form-control" name="" value="" placeholder="Nombre de Usuario">
+                <input type="text" class="form-control" name="" value="" id="UsuarioRegistro" placeholder="Nombre de Usuario">
             </div>
           </div>
           <br>
           <div class="row">
             <div class="col-md-6"><!--segundo 1 -->
-              <input type="text" class="form-control" name="" value="" placeholder="Codigo postal">
+              <input type="text" class="form-control" name="" value="" id="ciudadRegistro" placeholder="Ciudad">
             </div>
             <div class="col-md-6"><!--segundo 1 -->
-            <input type="text" class="form-control" name="" value="" placeholder="Ciudad">
+            <input type="text" class="form-control" name="" value="" id="codigoPostRegistro" placeholder="Codigo Postal">
 
-              </select>
             </div>
           </div>
-          <br>
-          <div class="row">
-            <div class="col-md-12">
-                <input type="text" class="form-control" name="" value="" placeholder="Direccion">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-12">
-              <h4 style="color:#FFFFFF";>Curriculum(PDF)</h4>
-                <input type="file" class="form-control" name="" value="">
-            </div>
-          </div>
-          <br>
-          <div class="row">
-              <div class="col-md-12">
-                  <select class="form-control" class="" name="">
-                    <option value="">Seleccione Su Profecion</option>
-                    <option value="">profecion 1</option>
-                    <option value="">profecion 2</option>
-                    <option value="">profecion 3</option>
-                    <option value="">profecion 4</option>
-                    <option value="">profecion 5</option>
-                  </select>
-              </div>
-          </div>
-          <br>
           <div class="row">
             <div class="col-md-12">
               <h4 style="color:#FFFFFF";>Edad</h4>
@@ -95,7 +82,20 @@
                 <option value="">45 o MAS</option>
               </select>
             </div>
-          </div><br>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <h4 style="color:#FFFFFF";>Profecion</h4>
+                  <select class="form-control" class="" name="" id="profecionRegistro">
+                    <option value="">Seleccione Su Profecion</option>
+                    <option value="">profecion 1</option>
+                    <option value="">profecion 2</option>
+                    <option value="">profecion 3</option>
+                    <option value="">profecion 4</option>
+                    <option value="">profecion 5</option>
+                  </select>
+              </div>
+          </div><br><br>
           <div class="row" align="right">
             <div class="col-md-12">
               <button type="button"id="Registrar" class="btn btn-primary">Registrar</button>
@@ -140,7 +140,7 @@
 <!-- Footer -->
 <footer class="footer" align="left">
     <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a>TexMM Arandas</a>
+      <a>TecMM Arandas</a>
     </div>
   </footer>
 

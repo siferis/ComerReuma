@@ -8,7 +8,7 @@
     <!--Librerias-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/stilos.css">
-    <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
 
     <style>
         .main-div {
@@ -45,7 +45,10 @@
 </head>
 
 <body background="img/1.jpg">
-    <?php include("menu/menuUsua.php"); ?>
+    <?php 
+    include("menu/menuUsua.php");
+    include("comexion.php"); 
+    ?>
     <div class="container">
     <div class="row col-center-block">
         <div class="col-sm-6 col-md-4 main-div col-center-block">
@@ -69,11 +72,6 @@
     <!-- librerias-->
     <script src="js/jquery-1.12.4.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
-    <script>
-        $("#activar-cupon").on("click", function() {
-            alert("Código para guardar el cupón.")
-        })
-    </script>
 </body>
 
 </html>

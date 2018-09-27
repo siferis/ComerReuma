@@ -105,7 +105,7 @@
           </div><br><br>
           <div class="row" align="right">
             <div class="col-md-12">
-              <button type="button"id="Registrar" class="btn btn-primary" onClick="crearUsuario(UsuarioRegistro, password)">Registrar</button>
+              <button type="button"id="Registrar" class="btn btn-primary" onClick="crearUsuario('aaa','aa')">Registrar</button>
             </div>
           </div>
 

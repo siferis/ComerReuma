@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Comercializadora</title>
-    
+
     <!--Librerias-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/stilos.css">
@@ -44,7 +44,7 @@
 </head>
 
 <body background="img/1.jpg">
-    <?php include("menu/menuAdmin.php"); ?>
+    <?php include("menu/menuUsua.php"); ?>
     <div class="container">
     <div class="row col-center-block">
         <div class="col-sm-6 col-md-4 main-div col-center-block">

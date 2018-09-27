@@ -61,6 +61,11 @@
                 <input type="text" class="form-control" name="" value="" id="UsuarioRegistro" placeholder="Nombre de Usuario">
             </div>
           </div>
+          <div class="row">
+            <div class="col-md-12">
+                <input type="password" class="form-control" name="" value="" id="passwordRegistro" placeholder="Password">
+            </div>
+          </div>
           <br>
           <div class="row">
             <div class="col-md-6"><!--segundo 1 -->

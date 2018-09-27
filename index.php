@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/stilos.css">
     <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
+<<<<<<< HEAD
+=======
+    <?php
+      include("comexion.php");
+    ?>
+>>>>>>> 846e68610e47b2cb84c4b20e0d813e0a0eea90b0
 </head>
 <body background="img/1.jpg">
   <?php
     include("comexion.php");
+    include("funciones.php");
   ?>
 <div class="container"> 
   <div class="row">
@@ -98,7 +105,7 @@
           </div><br><br>
           <div class="row" align="right">
             <div class="col-md-12">
-              <button type="button"id="Registrar" class="btn btn-primary">Registrar</button>
+              <button type="button"id="Registrar" class="btn btn-primary" onClick="crearUsuario(UsuarioRegistro, )">Registrar</button>
             </div>
           </div>
 

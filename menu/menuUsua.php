@@ -43,6 +43,8 @@
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Actualizar perfil</a></li>
                 <li role="separator" class="divider"></li>
+                <li><a href="#">Generar Cupon</a></li>
+                <li role="separator" class="divider"></li>
                 <li><a href="#">Cerrar Sesion</a></li>
               </ul>
             </li>

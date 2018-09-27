@@ -1,5 +1,5 @@
-<?
-    
+<?php
+    include("comexion.php");
 ?>
 <script>
     crearUsuario(email, password) {

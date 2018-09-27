@@ -53,3 +53,8 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+
+    <!-- verificar que esté autenticado -->
+    <script>
+      // checkAuth();
+    </script>

@@ -8,13 +8,6 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/stilos.css">
     <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
-<<<<<<< HEAD
-=======
-    <?php
-      include("comexion.php");
-      include("funciones.php");   
-    ?>
->>>>>>> 846e68610e47b2cb84c4b20e0d813e0a0eea90b0
 </head>
 <body background="img/1.jpg">
   <?php

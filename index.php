@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/stilos.css">
     <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
+<<<<<<< HEAD
+=======
+    <?php
+      include("comexion.php");
+      include("funciones.php");
+    ?>
+>>>>>>> 846e68610e47b2cb84c4b20e0d813e0a0eea90b0
 </head>
-<style media="screen">
-
-</style>
 <body background="img/1.jpg">
   <?php
     include("comexion.php");
@@ -25,23 +29,22 @@
 
                   <div class="col-md-7"><!--div derecha-->
 
-                    <br><br><br><br><br><br>
-                    <h2 style="color:#000000"; class="text-center">Te Estamos Buscando</h2>
-                        <div class="jumbotron"><!-- jumbotron Inicio-->
-                          <h3 style="color:#FFFFFF";>Unete a nosotros</h3><br>
-                          <p  style="color:#848484";>Trabajo adecuados, Siempre al alcance
-                          de tu mano. </p>
-                          <p align="right">
-                            <p style="color:#FFFFFF";><a class="btn btn-btnJum btn-lg" href="#" role="button">leer mas</a></p>
-                        </div><br><!-- jumbotron Cierre-->
+                      <h1 style="color:#FFFFFF";>Te estamos Buscando </h1>
+                        <p>El mejor Sitio para tu negocio</p>
 
                   </div>
-                  <div class="col-md-5" ><!--div derecha-->
-                      <img  src="img/3.5.1.png" alt=""><br><br><br>
-
+                  <div class="col-md-5"><!--div derecha-->
+                      <img src="img/3.5.1.png" alt="">
                   </div>
         </div>
-
+      <div class="jumbotron"><!-- jumbotron Inicio-->
+        <h3 style="color:#FFFFFF";>Sobre Nosotros</h3>
+        <p  style="color:#848484";>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p align="right">
+          <p style="color:#FFFFFF";><a class="btn btn-btnJum btn-lg" href="#" role="button">leer mas</a></p>
+      </div><br><!-- jumbotron Cierre-->
     </div><!--P7-->
     <div class="col-md-1"><!--segundo 1 -->
 
@@ -54,7 +57,7 @@
             <br>
             <button id="Login" type="button"class="btn btn-info" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Ya tienes Cuenta?</button>
           </div>
-          <h3 style="color:#FFFFFF";>Registrate Ahora!!</h3>
+          <h3 style="color:#FFFFFF";>Registrar</h3>
           <div class="row">
             <div class="col-md-12"><!--segundo 1 -->
               <input type="text" class="form-control" name="" value="" id="nombreRegistro" placeholder="Nombre">

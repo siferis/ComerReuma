@@ -34,13 +34,12 @@
 
          </div>
          <div class="col-md-3"><!--div derecha-->
+           <img src="../img/login1.png" alt="">
 
          </div>
 
        </div>
      </div>
-
-
 
     <!-- librerias-->
     <script src="../js/jquery-1.12.4.js"></script>

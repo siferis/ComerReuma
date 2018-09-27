@@ -27,6 +27,7 @@
         }
         .vimage {
             width: 200px;
+            margin-top: 20px;
         }
         .input-cupon {
             margin: 20px auto;

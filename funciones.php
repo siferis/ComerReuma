@@ -10,6 +10,6 @@
             alert("error = "+ errorMessage)
             // ...
         });
-        alert("listo"+email);
+        alert("listo");
     }; 
 </script>

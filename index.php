@@ -12,7 +12,7 @@
 =======
     <?php
       include("comexion.php");
-      include("funciones.php");
+      include("funciones.php");   
     ?>
 >>>>>>> 846e68610e47b2cb84c4b20e0d813e0a0eea90b0
 </head>

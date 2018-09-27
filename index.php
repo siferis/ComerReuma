@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/stilos.css">
     <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
     <?php
-      include("conexion.php");
+      include("comexion.php");
     ?>
 </head>
 <body background="img/1.jpg">

@@ -23,7 +23,7 @@
                   <div class="col-md-7"><!--div derecha-->
 
                       <h1 style="color:#FFFFFF";>Te estamos Buscando </h1>
-                        <p></p>
+                        <p>El mejor Sitio para tu negocio</p>
 
                   </div>
                   <div class="col-md-5"><!--div derecha-->

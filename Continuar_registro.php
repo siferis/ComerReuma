@@ -8,10 +8,18 @@
     <link rel="stylesheet" href="css/stilos.css">
     <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
   </head>
+  <body background="img/1.jpg" background-repeat: no-repeat>
+    
 
-  <body background="img/1.jpg">
 
 
+
+    <!-- Footer -->
+    <footer class="footer" align="left">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a>TexMM Arandas</a>
+        </div>
+      </footer>
     <!-- librerias-->
     <script src="js/jquery-1.12.4.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>

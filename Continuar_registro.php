@@ -9,7 +9,7 @@
     <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
   </head>
 
-  <body background="img/4.5.jpg">
+  <body background="img/1.jpg">
 
 
     <!-- librerias-->

@@ -13,7 +13,7 @@
     <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
   </head>
 
-  <body background="img/4.5.jpg">
+  <body background="img/1.jpg">
 <div class="container">
   <div class="row">
     <div class="col-md-7"><!--primero 7 -->

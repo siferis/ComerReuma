@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/stilos.css">
     <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
-    <?php
-      include("conexion.php");
-    ?>
 </head>
 <body background="img/1.jpg">
-<div class="container">
+  <?php
+    include("comexion.php");
+  ?>
+<div class="container"> 
   <div class="row">
     <div class="col-md-7"><!--primero 7 -->
         <br><br><br>

@@ -26,15 +26,25 @@
      ?>
      <div class="container">
        <div class="row">
-         <br><br><br>
+         <br>
          <div class="col-md-1"><!--div izquierda-->
 
          </div>
-         <div class="col-md-8"><!-- div Central-->
+         <div class="col-md-9"><!-- div Central-->
+           <form class="form control" action="" method="post">
 
+           </form>
          </div>
-         <div class="col-md-3"><!--div derecha-->
-           <img src="../img/login1.png" alt="">
+         <div class="col-md-2"><!--div derecha-->
+           <div class="panel panel-warning">
+              <div align="center" class="panel-heading">Mi Perfil</div>
+              <img class="img-left" src="../img/login1.png"  width="150" height="150" alt="">
+              <div class=""align="right">
+                <a href="#">Agregar foto</a>
+              </div>
+
+           </div>
+
 
          </div>
 

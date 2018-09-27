@@ -1,6 +1,3 @@
-<?php
-
-?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -11,9 +8,11 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/stilos.css">
     <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
-  </head>
-
-  <body background="img/1.jpg">
+    <?php
+      include("conexion.php");
+    ?>
+</head>
+<body background="img/1.jpg">
 <div class="container">
   <div class="row">
     <div class="col-md-7"><!--primero 7 -->

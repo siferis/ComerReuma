@@ -9,7 +9,26 @@
     <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
   </head>
   <body background="img/1.jpg" background-repeat: no-repeat>
-    
+    <div class="container">
+      <div class="row">
+        <br><br><br>
+        <div class="col-md-2"><!--div izquierda-->
+
+        </div>
+        <div class="col-md-8"><!-- div Central-->
+          <div class="panel panel-default">
+            <h1 style="color:#FFFFFF"; class="text-center">Ya casi</h1>
+              <p style="color:#848484"; class="text-center">Falta poco para terminar tu registro</p>
+              
+
+          </div>
+        </div>
+        <div class="col-md-2"><!--div derecha-->
+
+        </div>
+
+      </div>
+    </div>
 
 
 

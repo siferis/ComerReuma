@@ -1,8 +1,8 @@
-<?
-    
+<?php
+    include("comexion.php");
 ?>
 <script>
-    crearUsuario(email, password) {
+    function crearUsuario(email, password) {
         firebase.auth().createUserWithEmailAndPassword(email, password).catch(function (error) {
             // Handle Errors here.
             var errorCode = error.code;
@@ -10,6 +10,6 @@
             alert("error = "+ errorMessage)
             // ...
         });
-        alert("listo");
+        alert("listo"+email);
     }; 
 </script>

@@ -14,7 +14,7 @@
     include("comexion.php");
     include("funciones.php");
   ?>
-<div class="container"> 
+<div class="container">
   <div class="row">
     <div class="col-md-7"><!--primero 7 -->
         <br><br><br>

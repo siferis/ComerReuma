@@ -70,6 +70,12 @@
           </div>
           <br>
           <div class="row">
+            <div class="col-md-12">
+                <input type="password" class="form-control" name="" value="" id="passwordRegistro" placeholder="Password">
+            </div>
+          </div>
+          <br>
+          <div class="row">
             <div class="col-md-6"><!--segundo 1 -->
               <input type="text" class="form-control" name="" value="" id="ciudadRegistro" placeholder="Ciudad">
             </div>

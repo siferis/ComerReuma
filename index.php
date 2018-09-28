@@ -48,7 +48,7 @@
         <div class="panel-body">
           <div class="" align="center">
             <br>
-            <button id="Login" type="button"class="btn btn-info" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" onclick="logOut()">Ya tienes Cuenta?</button>
+            <button id="Login" type="button"class="btn btn-info" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" >Ya tienes Cuenta?</button>
           </div>
           <h3 style="color:#FFFFFF";>Registrar</h3>
           <div class="row">

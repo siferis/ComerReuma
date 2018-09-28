@@ -74,9 +74,35 @@
       </div>
       <!--Cierre T4 -->
       <!-- Modal -->
-    </div><br><br>
-    <div class="row" align="right">
-      <div class="col-md-12">
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Iniciar Sesion</h4>
+            </div>
+            <div class="modal-body">
+              <h4>Bienvenido</h4>
+              <form class="needs-validation" id="login-form">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input id="email" type="email" class="form-control" name="email" placeholder="Usuario" required v-model="email">
+                </div>
+                <br>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                  <input id="password" type="password" class="form-control" name="password" placeholder="Password" required v-model="password">
+                </div>
+                <div class="modal-footer input-group" style="text-align:center;">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  <button type="button" id="entrar" class="btn btn-primary" @click="checkForm">Iniciar
+                    Sesion</button>
+               </div>
+              </div>
+              
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -95,6 +121,31 @@
       <a>TecMM Arandas</a>
     </div>
   </footer>
+
+  <script>
+    let loginForm = new Vue({
+      el: "#login-form",
+      data: {
+        email: null,
+        password: null
+      },
+      methods: {
+        checkForm: function() {
+          console.log(this);
+          if(!this.$el.checkValidity()) { // Si el formulario es inválido
+            alertify
+            .alert("El formulario es inválido.", function(){
+                alertify.message('Completar formulario.');
+            });
+          } else {
+            // Lógica para inicio de sesión. Están a disposición las
+            // variables email.value y password.value
+            
+          }
+        }
+      }
+    });
+  </script>
   <!-- librerias-->
   <script src="js/jquery-1.12.4.js"></script>
   <script src="bootstrap/js/bootstrap.js"></script>

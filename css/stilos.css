@@ -1,18 +1,27 @@
-.panel-default{
-background: rgba(0, 0, 0, 0.2);
+.panel-default {
+    background: rgba(0, 0, 0, 0.2);
 }
-.panel-default .panel-heading{
-background: rgba(0, 0, 0, 0.0);
+
+.panel-default .panel-heading {
+    background: rgba(0, 0, 0, 0.0);
 }
-.panel-default .panel-body{
-background: rgba(0, 0, 0, 0.0);
+
+.panel-default .panel-body {
+    background: rgba(0, 0, 0, 0.0);
 }
-.jumbotron{
-background: rgba(0, 0, 0, 0.5);
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0.5);
 }
-.btnJum{
-background: rgba(255, 255, 255, 0.1);
+
+.btnJum {
+    background: rgba(255, 255, 255, 0.1);
 }
+
 footer {
-  background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+input:invalid:not(:focus) {
+    outline: 1px solid #f00;
 }

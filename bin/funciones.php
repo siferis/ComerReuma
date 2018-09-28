@@ -2,10 +2,11 @@
     include("comexion.php");
 ?>
 <script>
+    var usuario;
     //crea usuarion en firebase con correo electronico;
 
     function crearUsuario(email, password) {
-
+        alert("usuario: "+usuario.email);
         firebase.auth().createUserWithEmailAndPassword(email, password).catch(function (error) {
             //Handle Errors here.
             var errorCode = error.code;
@@ -63,7 +64,8 @@
                 var providerData = user.providerData;
                 // ...
                 alert("logeado " + user.email);
-                return user;
+                usuario = user;
+                //return user;
             } else {
                 alert("contraeña incorrecta");
                 // User is signed out.

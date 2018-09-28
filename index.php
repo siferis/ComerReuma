@@ -69,21 +69,24 @@
             </div>
             <div class="modal-body">
               <h4>Bienvenido</h4>
-              <div class="input-group">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                <input id="email" type="text" class="form-control" name="email" placeholder="Usuario">
+              <form class="needs-validation" id="login-form">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input id="email" type="email" class="form-control" name="email" placeholder="Usuario" required v-model="email">
+                </div>
+                <br>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                  <input id="password" type="password" class="form-control" name="password" placeholder="Password" required v-model="password">
+                </div>
+                <div class="modal-footer input-group" style="text-align:center;">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  <button type="button" id="entrar" class="btn btn-primary" @click="checkForm">Iniciar
+                    Sesion</button>
+               </div>
               </div>
-              <br>
-              <div class="input-group">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                <input id="password" type="text" class="form-control" name="password" placeholder="Password">
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-              <button type="button" id="entrar" class="btn btn-primary" onClick="logIn($(email).val(), $(password).val())">Iniciar
-                Sesion</button>
-            </div>
+              
+            </form>
           </div>
         </div>
       </div>
@@ -96,6 +99,30 @@
     </div>
   </footer>
 
+  <script>
+    let loginForm = new Vue({
+      el: "#login-form",
+      data: {
+        email: null,
+        password: null
+      },
+      methods: {
+        checkForm: function() {
+          console.log(this);
+          if(!this.$el.checkValidity()) { // Si el formulario es inválido
+            alertify
+            .alert("El formulario es inválido.", function(){
+                alertify.message('Completar formulario.');
+            });
+          } else {
+            // Lógica para inicio de sesión. Están a disposición las
+            // variables email.value y password.value
+            
+          }
+        }
+      }
+    });
+  </script>
   <!-- librerias-->
   <script src="js/jquery-1.12.4.js"></script>
   <script src="bootstrap/js/bootstrap.js"></script>

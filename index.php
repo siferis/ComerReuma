@@ -20,24 +20,21 @@
         <br><br><br>
         <div class="row">
 
-                  <div class="col-md-7"><!--div derecha-->
-
+                  <div class="col-md-8"><!--div derecha-->
+                        <br><br><br>
                       <h1 style="color:#FFFFFF";>Te estamos Buscando </h1>
-                        <p>El mejor Sitio para tu negocio</p>
+                      <div class="jumbotron"><!-- jumbotron Inicio-->
+                        <h3 style="color:#FFFFFF";>Somos Tu mejor opcion</h3><br><br>
+                        <p  style="color:#848484";>Siempre al alcance de tus manos</p>
+                        <br><br>
+                          <p align="left" style="color:#FFFFFF";><a class="btn btn-btnJum btn-lg" href="#" role="button">leer mas</a></p>
+                      </div><br><!-- jumbotron Cierre-->
 
                   </div>
-                  <div class="col-md-5"><!--div derecha-->
+                  <div class="col-md-4"><!--div derecha-->
                       <img src="img/3.5.1.png" alt="">
                   </div>
         </div>
-      <div class="jumbotron"><!-- jumbotron Inicio-->
-        <h3 style="color:#FFFFFF";>Sobre Nosotros</h3>
-        <p  style="color:#848484";>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        <p align="right">
-          <p style="color:#FFFFFF";><a class="btn btn-btnJum btn-lg" href="#" role="button">leer mas</a></p>
-      </div><br><!-- jumbotron Cierre-->
     </div><!--P7-->
     <div class="col-md-1"><!--segundo 1 -->
 
@@ -50,7 +47,7 @@
             <br>
             <button id="Login" type="button"class="btn btn-info" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Ya tienes Cuenta?</button>
           </div>
-          <h3 style="color:#FFFFFF";>Registrar</h3>
+          <h3 style="color:#FFFFFF";>Registrate Ahora!!!</h3>
           <div class="row">
             <div class="col-md-12"><!--segundo 1 -->
               <input type="text" class="form-control" name="" value="" id="nombreRegistro" placeholder="Nombre">
@@ -105,7 +102,7 @@
           </div><br><br>
           <div class="row" align="right">
             <div class="col-md-12">
-              <button type="button"id="Registrar" class="btn btn-primary" onClick="crearUsuario('aaa','aa')">Registrar</button>
+              <button type="button"id="Registrar" class="btn btn-primary" onClick="crearUsuario()">Registrar</button>
             </div>
           </div>
 
@@ -157,30 +154,30 @@
   </body>
   <script type="text/javascript">
   $(document).ready(function(){
-    $(document).on("click","#entrar",function(){
-      if ($("#email").val()=='') {
+    $(document).on("click","#Registrar",function(){
+      if ($("#UsuarioRegistro").val()=='') {
         alert("ingresa un Correo");
-        $("#email").focus();
+        $("#UsuarioRegistro").focus();
         return false;
       }
-      if ($("#password").val()=='') {
+      if ($("#passwordRegistro").val()=='') {
         alert("ingresa una contraseña");
-        $("#password").focus();
+        $("#passwordRegistro").focus();
         return false;
       }
 
       $.ajax({
         type : "POST",
-        url : "<?=$_SERVER["PHP_SELF"] ?>",
+        url : "funciones.php",
         data :({
-        funcion :"validar_datos",
-        email : $("#email").val(),
-        password : $("#password").val()
+        function :" crearUsuario",
+        email : $("#UsuarioRegistro").val(),
+        password : $("#passwordRegistro").val()
       }),
       dataType : "html",
       async : false,
-      success : function(msg){
-          if (msg=='si') {
+      success : function(errorMessage){
+          if (errorMessage=='') {
           alert("datos Correctos");
           window.location="";
         }else {

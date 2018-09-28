@@ -33,3 +33,7 @@
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/css/themes/bootstrap.min.css"/>
 
 <script src="js/main.js"></script>
+
+<script>
+
+</script>

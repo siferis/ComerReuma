@@ -3,7 +3,7 @@
 ?>
 <script>
     //crea usuarion en firebase con correo electronico;
-    
+
     function crearUsuario(email, password) {
 
         firebase.auth().createUserWithEmailAndPassword(email, password).catch(function (error) {
@@ -14,7 +14,7 @@
             // ...
         });
     }
-    
+
     function writeUserData(userId, name, email, tipo) {
         firebase.database().ref('users/' + userId).set({
             username: name,
@@ -22,7 +22,7 @@
             tipo: tipo
         });
     }
-    
+
     //funcion para logearte con correo y contraseña
     function logIn(email, password) {
         firebase.auth().signInWithEmailAndPassword(email, password).catch(function (error) {
@@ -48,12 +48,12 @@
         });
     }
 
-    function RevisarUsuario(){
-      alert("intentando2");
+    function RevisarUsuario() {
+        alert("intentando2");
         firebase.auth().onAuthStateChanged(function (user) {
             if (user) {
                 // User is signed in.
-               // var datos[];
+                // var datos[];
                 var displayName = user.displayName;
                 var email1 = user.email;
                 var emailVerified = user.emailVerified;

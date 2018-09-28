@@ -7,7 +7,7 @@
   <!--Librerias-->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="css/stilos.css">
-  <link href="webcodecamjs-master/css/style.css" rel="stylesheet">
+
 </head>
 
 <body background="img/1.jpg">
@@ -47,7 +47,7 @@
           <div class="col-md-8">
             <!--div derecha-->
             <br><br><br>
-          
+
 
           </div>
           <div class="col-md-5">

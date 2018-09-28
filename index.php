@@ -47,24 +47,16 @@
           <div class="col-md-8">
             <!--div derecha-->
             <br><br><br>
-            <h1 style="color:#FFFFFF" ;>Te estamos Buscando </h1>
-            <p>El mejor Sitio para tu negocio</p>
-
+          
 
           </div>
           <div class="col-md-5">
 
-            <div class="jumbotron">
-              <!-- jumbotron Inicio-->
-              <h3 style="color:#FFFFFF" ;>Sobre Nosotros</h3>
-              <p style="color:#848484" ;>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              </p>
-              <p align="right" style="color:#FFFFFF" ;><a class="btn btn-btnJum btn-lg" href="#" role="button">leer mas</a></p>
-            </div><br><!-- jumbotron Cierre-->
+
           </div>
           <div class="col-md-4">
             <!--div derecha-->
-            <img src="img/3.5.1.png" alt="">
+
           </div>
         </div>
       </div>
@@ -85,12 +77,10 @@
     </div><br><br>
     <div class="row" align="right">
       <div class="col-md-12">
-        <button type="button" id="Registrar" class="btn btn-primary" onClick="crearUsuario()">Registrar</button>
       </div>
     </div>
   </div>
-  </div>
-  </div>
+
   <!--Cierre T4 -->
   <br>
   <?php

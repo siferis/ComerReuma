@@ -2,6 +2,7 @@
     include("comexion.php");
 ?>
 <script>
+    //crea usuarion en firebase con correo electronico;
     function crearUsuario(email, password) {
         firebase.auth().createUserWithEmailAndPassword(email, password).catch(function (error) {
             //Handle Errors here.
@@ -12,7 +13,7 @@
         });
         alert("listo" + email + "  " + password + firebase.auth().currentUser);
     };
-
+    //funcion para logearte con correo y contraseña
     function logIn(email, password) {
         firebase.auth().signInWithEmailAndPassword(email, password).catch(function (error) {
             // Handle Errors here.
@@ -21,6 +22,7 @@
             aler("error = " + errorMessage + " password" + email + " email " + password);
             // ...
         });
+        //esta funcion revisa si el ingreso fue correcto, y obtiene los datos del usuario
         firebase.auth().onAuthStateChanged(function (user) {
             if (user) {
                 // User is signed in.
@@ -40,7 +42,7 @@
             }
         });
     }
-
+    //esta funcion hace un logOut
     function logOut() {
         firebase.auth().signOut().then(function () {
             // Sign-out successful.

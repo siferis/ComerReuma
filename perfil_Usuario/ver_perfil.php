@@ -33,67 +33,56 @@
          <div class="col-md-9"><!-- div Central-->
            <div class="col-md-6">
              <div class="form-group">
-               <label for="inputEmail3" class="col-sm-4 control-label">Nombre Completo</label>
+               <label  style="color:#FFFFFF";for="inputEmail3" class="col-sm-4 control-label">Nombre Completo</label>
                <div class="col-sm-7">
                  <input type="text" class="form-control" id="nombre">
                </div>
              </div><br><br>
              <div class="form-group">
-               <label for="inputEmail3" class="col-sm-4 control-label">Usuario</label>
+               <label for="inputEmail3" style="color:#FFFFFF"; class="col-sm-4 control-label">Usuario</label>
                <div class="col-sm-7">
                  <input type="text" class="form-control" id="Usuario">
                </div>
              </div><br><br>
              <div class="form-group">
-               <label for="inputEmail3" class="col-sm-4 control-label">Direccion</label>
+               <label for="inputEmail3" style="color:#FFFFFF"; class="col-sm-4 control-label">Direccion</label>
                <div class="col-sm-7">
                  <input type="text" class="form-control" id="Direccion">
                </div>
              </div><br><br>
              <div class="form-group">
-               <label for="inputEmail3" class="col-sm-4 control-label">Curriculum(PDF)</label>
+               <label for="inputEmail3"  style="color:#FFFFFF"; class="col-sm-4 control-label">Curriculum(PDF)</label>
                <div class="col-sm-7">
                  <input type="file" class="form-control" id="Curriculum">
                </div>
              </div><br><br>
              <div class="form-group">
-               <label for="inputEmail3" class="col-sm-4 control-label">Curriculum(PDF)</label>
+               <label for="inputEmail3"style="color:#FFFFFF"; class="col-sm-4 control-label">Codigo Postal</label>
                <div class="col-sm-7">
-                 <input type="file" class="form-control" id="Curriculum">
+                 <input type="text" class="form-control" id="Curriculum">
                </div>
              </div><br><br>
            </div>
            <div class="col-md-6">
              <div class="form-group">
-               <label for="inputEmail3" class="col-sm-5 control-label">Nombre Completo</label>
+               <label for="inputEmail3"style="color:#FFFFFF"; class="col-sm-5 control-label">Ciudad</label>
                <div class="col-sm-7">
                  <input type="text" class="form-control" id="nombre">
                </div>
              </div><br><br>
              <div class="form-group">
-               <label for="inputEmail3" class="col-sm-5 control-label">Usuario</label>
+               <label for="inputEmail3"style="color:#FFFFFF"; class="col-sm-5 control-label">Edad</label>
                <div class="col-sm-7">
                  <input type="text" class="form-control" id="Usuario">
                </div>
              </div><br><br>
              <div class="form-group">
-               <label for="inputEmail3" class="col-sm-5 control-label">Direccion</label>
+               <label for="inputEmail3"style="color:#FFFFFF"; class="col-sm-5 control-label">Profecion</label>
                <div class="col-sm-7">
                  <input type="text" class="form-control" id="Direccion">
                </div>
              </div><br><br>
-             <div class="form-group">
-               <label for="inputEmail3" class="col-sm-5 control-label">Curriculum(PDF)</label>
-               <div class="col-sm-7">
-                 <input type="file" class="form-control" id="Curriculum">
-               </div>
-             </div><br><br>
-             <div class="form-group">
-               <label for="inputEmail3" class="col-sm-5 control-label">Curriculum(PDF)</label>
-               <div class="col-sm-7">
-                 <input type="file" class="form-control" id="Curriculum">
-               </div>
-             </div><br><br>
+
            </div>
          </div>
          <div class="col-md-2" align="right"><!--div derecha-->

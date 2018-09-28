@@ -27,16 +27,66 @@
      <div class="container">
        <div class="row">
          <br>
-         <div class="col-md-1"><!--div izquierda-->
+         <div class="col-md-0"><!--div izquierda-->
 
          </div>
          <div class="col-md-9"><!-- div Central-->
-           <form class="form control" action="" method="post">
+           <div class="col-md-6">
+             <div class="form-group">
+               <label  style="color:#FFFFFF";for="inputEmail3" class="col-sm-4 control-label">Nombre Completo</label>
+               <div class="col-sm-7">
+                 <input type="text" class="form-control" id="nombre">
+               </div>
+             </div><br><br>
+             <div class="form-group">
+               <label for="inputEmail3" style="color:#FFFFFF"; class="col-sm-4 control-label">Usuario</label>
+               <div class="col-sm-7">
+                 <input type="text" class="form-control" id="Usuario">
+               </div>
+             </div><br><br>
+             <div class="form-group">
+               <label for="inputEmail3" style="color:#FFFFFF"; class="col-sm-4 control-label">Direccion</label>
+               <div class="col-sm-7">
+                 <input type="text" class="form-control" id="Direccion">
+               </div>
+             </div><br><br>
+             <div class="form-group">
+               <label for="inputEmail3"  style="color:#FFFFFF"; class="col-sm-4 control-label">Curriculum(PDF)</label>
+               <div class="col-sm-7">
+                 <input type="file" class="form-control" id="Curriculum">
+               </div>
+             </div><br><br>
+             <div class="form-group">
+               <label for="inputEmail3"style="color:#FFFFFF"; class="col-sm-4 control-label">Codigo Postal</label>
+               <div class="col-sm-7">
+                 <input type="text" class="form-control" id="Curriculum">
+               </div>
+             </div><br><br>
+           </div>
+           <div class="col-md-6">
+             <div class="form-group">
+               <label for="inputEmail3"style="color:#FFFFFF"; class="col-sm-5 control-label">Ciudad</label>
+               <div class="col-sm-7">
+                 <input type="text" class="form-control" id="nombre">
+               </div>
+             </div><br><br>
+             <div class="form-group">
+               <label for="inputEmail3"style="color:#FFFFFF"; class="col-sm-5 control-label">Edad</label>
+               <div class="col-sm-7">
+                 <input type="text" class="form-control" id="Usuario">
+               </div>
+             </div><br><br>
+             <div class="form-group">
+               <label for="inputEmail3"style="color:#FFFFFF"; class="col-sm-5 control-label">Profecion</label>
+               <div class="col-sm-7">
+                 <input type="text" class="form-control" id="Direccion">
+               </div>
+             </div><br><br>
 
-           </form>
+           </div>
          </div>
-         <div class="col-md-2"><!--div derecha-->
-           <div class="panel panel-warning">
+         <div class="col-md-2" align="right"><!--div derecha-->
+           <div class="panel panel-warning" align="right">
               <div align="center" class="panel-heading">Mi Perfil</div>
               <img class="img-left" src="../img/login1.png"  width="150" height="150" alt="">
               <div class=""align="right">
